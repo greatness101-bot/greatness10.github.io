@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>For My Valentine (Elvis) ❤️🩶</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to bottom right, #ff758c, #ff7eb3);
+      color: white;
+      text-align: center;
+    }
+    .container {
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      line-height: 1.6;
+    }
+    .card {
+      background: rgba(255,255,255,0.15);
+      padding: 25px;
+      border-radius: 20px;
+      margin: 30px 0;
+    }
+    button {
+      background: white;
+      color: #ff4f81;
+      border: none;
+      padding: 15px 25px;
+      font-size: 1em;
+      border-radius: 30px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Hi My Love ❤️</h1>
+  <p>Happy Valentine’s Dayyyy🥹</p>
+
+  <div class="card">
+    <h2>Why I Love You 💌</h2>
+    <p>
+      • You make me laugh  alot<br>
+      • You’re my safe place<br>
+      • You support me and believe in me<br>
+      • You’re literally one of my favorite people <br>
+      • I love your smile<br>
+      • I love how thoughtful you are<br>
+      • I also love how strange you are<br>
+      •I just love you in general alot
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>One More Thing 🤪</h2>
+    <p>Click the button below</p>
+    <button onclick="alert('I love you more than words can explain 💕')">
+      Click me
+    </button>
+  </div>
+
+  <footer>
+    Made with love just for you 💖
+  </footer>
+</div>
+
+</body>
+</html>
